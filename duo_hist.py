@@ -57,6 +57,7 @@ while procurar == "sim":
 
     if img != None:
         # Combine os pares:
+        clica(img)
         for i in range(1,6):
             for j in range(6,11):
                 img = pyautogui.locateCenterOnScreen(f'{i}.png', confidence=0.9)
@@ -65,7 +66,7 @@ while procurar == "sim":
                 img = pyautogui.locateCenterOnScreen(f'{j}.png', confidence=0.9)
                 clica(img)
 
-                img = pyautogui.locateCenterOnScreen('1 selecionado.png', confidence=0.95)
+                """img = pyautogui.locateCenterOnScreen('1 selecionado.png', confidence=0.95)
                 clica(img)
                 img = pyautogui.locateCenterOnScreen('2 selecionado.png', confidence=0.95)
                 clica(img)
@@ -74,7 +75,7 @@ while procurar == "sim":
                 img = pyautogui.locateCenterOnScreen('4 selecionado.png', confidence=0.95)
                 clica(img)
                 img = pyautogui.locateCenterOnScreen('5 selecionado.png', confidence=0.95)
-                clica(img)
+                clica(img)"""
 
     #ultimo continuar
     img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 193900.png', confidence=0.9)
