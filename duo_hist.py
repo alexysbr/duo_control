@@ -65,7 +65,15 @@ while procurar == "sim":
                 img = pyautogui.locateCenterOnScreen(f'{j}.png', confidence=0.9)
                 clica(img)
 
-                img = pyautogui.locateCenterOnScreen('ponto selecionado.png', confidence=0.9)
+                img = pyautogui.locateCenterOnScreen('1 selecionado.png', confidence=0.95)
+                clica(img)
+                img = pyautogui.locateCenterOnScreen('2 selecionado.png', confidence=0.95)
+                clica(img)
+                img = pyautogui.locateCenterOnScreen('3 selecionado.png', confidence=0.95)
+                clica(img)
+                img = pyautogui.locateCenterOnScreen('4 selecionado.png', confidence=0.95)
+                clica(img)
+                img = pyautogui.locateCenterOnScreen('5 selecionado.png', confidence=0.95)
                 clica(img)
 
     #ultimo continuar
