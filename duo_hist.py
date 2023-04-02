@@ -62,9 +62,11 @@ while procurar == "sim":
             for j in range(6,11):
                 img = pyautogui.locateCenterOnScreen(f'{i}.png', confidence=0.9)
                 clica(img)
-                
+                sleep(0.2)
+
                 img = pyautogui.locateCenterOnScreen(f'{j}.png', confidence=0.9)
                 clica(img)
+                sleep(0.2)
 
                 """img = pyautogui.locateCenterOnScreen('1 selecionado.png', confidence=0.95)
                 clica(img)
