@@ -25,32 +25,64 @@ while procurar == "sim":
     img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-02 002615.png', confidence=0.9)
     clica(img)
 
+    #continuar
+    img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 132345.png', confidence=0.7)
+    clica(img)
+
     # I
     img = pyautogui.locateCenterOnScreen('1Captura de tela 2023-04-01 131634.png', confidence=0.9)
+    clica(img)
+
+    #continuar
+    img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 132345.png', confidence=0.7)
     clica(img)
 
     # need the
     img = pyautogui.locateCenterOnScreen('2Captura de tela 2023-04-01 131706.png', confidence=0.9)
     clica(img)
 
+    #continuar
+    img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 132345.png', confidence=0.7)
+    clica(img)
+
     # key
     img = pyautogui.locateCenterOnScreen('3Captura de tela 2023-04-01 131749.png', confidence=0.9)
+    clica(img)
+
+    #continuar
+    img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 132345.png', confidence=0.7)
     clica(img)
 
     # to my car
     img = pyautogui.locateCenterOnScreen('4Captura de tela 2023-04-01 131822.png', confidence=0.9)
     clica(img)
 
+    #continuar
+    img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 132345.png', confidence=0.7)
+    clica(img)
+
     # tired
     img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 184404.png', confidence=0.9)
+    clica(img)
+
+    #continuar
+    img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 132345.png', confidence=0.7)
     clica(img)
 
     # Procurando um pouco de acucar para o cafe dela
     img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 131929.png', confidence=0.9)
     clica(img)
 
+    #continuar
+    img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 132345.png', confidence=0.7)
+    clica(img)
+
     # ...ela colocou sal no cafe dela
     img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 132008.png', confidence=0.9)
+    clica(img)
+
+    #continuar
+    img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 132345.png', confidence=0.7)
     clica(img)
 
     img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 192511.png', confidence=0.9)
