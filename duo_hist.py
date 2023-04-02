@@ -65,6 +65,9 @@ while procurar == "sim":
                 img = pyautogui.locateCenterOnScreen(f'{j}.png', confidence=0.9)
                 clica(img)
 
+                img = pyautogui.locateCenterOnScreen('ponto selecionado', confidence=0.9)
+                clica(img)
+
     #ultimo continuar
     img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 193900.png', confidence=0.9)
     clica(img)
