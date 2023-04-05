@@ -22,7 +22,7 @@ while procurar == "sim":
     clica(img)
  
     #a big game
-    img = pyautogui.locateCenterOnScreen('a big game.png', confidence=0.9)
+    img = pyautogui.locateCenterOnScreen('biggame.png', confidence=0.9)
     clica(img)
 
     #continuar
@@ -30,7 +30,7 @@ while procurar == "sim":
     clica(img)
 
     #ela vai jogar futebol hoje
-    img = pyautogui.locateCenterOnScreen('ela vai jogar futebol hoje.png', confidence=0.9)
+    img = pyautogui.locateCenterOnScreen('ela.png', confidence=0.9)
     clica(img)
 
     #continuar
@@ -42,7 +42,7 @@ while procurar == "sim":
     clica(img)
 
     #my parents
-    img = pyautogui.locateCenterOnScreen('my parents.png', confidence=0.9)
+    img = pyautogui.locateCenterOnScreen('myparents.png', confidence=0.9)
     clica(img)
 
     #are
@@ -62,7 +62,7 @@ while procurar == "sim":
     clica(img)
 
     #deveriam ter encontrado outras pessoas
-    img = pyautogui.locateCenterOnScreen('deveriam ter encontrado outras pessoas.png', confidence=0.9)
+    img = pyautogui.locateCenterOnScreen('deveriam.png', confidence=0.9)
     clica(img)
 
     #continuar
@@ -70,7 +70,7 @@ while procurar == "sim":
     clica(img)
 
     #daniel mentiu
-    img = pyautogui.locateCenterOnScreen('daniel mentiu.png', confidence=0.9)
+    img = pyautogui.locateCenterOnScreen('danielmentiu.png', confidence=0.9)
     clica(img)
 
     #continuar
@@ -78,7 +78,7 @@ while procurar == "sim":
     clica(img)
 
     # Combine os pares:
-    img = pyautogui.locateCenterOnScreen('combine os pares.png', confidence=0.9)
+    img = pyautogui.locateCenterOnScreen('combine.png', confidence=0.9)
 
     if img != None:
         # Combine os pares:
@@ -89,7 +89,7 @@ while procurar == "sim":
             clica(img)
 
             # Continuar azul
-            img = pyautogui.locateCenterOnScreen('continuar azul.png', confidence=0.7)
+            img = pyautogui.locateCenterOnScreen('continuarazul.png', confidence=0.7)
             clica(img)
             for j in range(6,11):
                 img = pyautogui.locateCenterOnScreen(f'{i}.png', confidence=0.9)
@@ -105,7 +105,7 @@ while procurar == "sim":
     clica(img)
     
     # Continuar azul
-    img = pyautogui.locateCenterOnScreen('continuar azul.png', confidence=0.7)
+    img = pyautogui.locateCenterOnScreen('continuarazul.png', confidence=0.7)
     clica(img)
 
 
