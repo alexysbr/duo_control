@@ -50,7 +50,7 @@ while procurar == "sim":
     clica(img)
 
     #from
-    img = pyautogui.locateCenterOnScreen('historia 2/from.png', confidence=0.7)
+    img = pyautogui.locateCenterOnScreen('historia 2/from.png', confidence=0.9)
     clica(img)
 
     #brazil
