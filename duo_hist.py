@@ -1,3 +1,4 @@
+#É necessario instalar via terminal as bibliotecas: pip install pyautogui pillow mouseinfo
 import pyautogui
 from time import sleep
 
