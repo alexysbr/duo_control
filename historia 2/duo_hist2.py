@@ -22,7 +22,7 @@ while procurar == "sim":
     clica(img)
  
     #a big game
-    img = pyautogui.locateCenterOnScreen('historia 2/biggame.png', confidence=0.95)
+    img = pyautogui.locateCenterOnScreen('historia 2/biggame.png', confidence=1)
     clica(img)
 
     #continuar
