@@ -102,22 +102,11 @@ while procurar == "sim":
             for j in range(6,11):
                 img = pyautogui.locateCenterOnScreen(f'{i}.png', confidence=0.9)
                 clica(img)
-                sleep(0.2)
+                sleep(0.1)
 
                 img = pyautogui.locateCenterOnScreen(f'{j}.png', confidence=0.9)
                 clica(img)
-                sleep(0.2)
-
-                """img = pyautogui.locateCenterOnScreen('1 selecionado.png', confidence=0.95)
-                clica(img)
-                img = pyautogui.locateCenterOnScreen('2 selecionado.png', confidence=0.95)
-                clica(img)
-                img = pyautogui.locateCenterOnScreen('3 selecionado.png', confidence=0.95)
-                clica(img)
-                img = pyautogui.locateCenterOnScreen('4 selecionado.png', confidence=0.95)
-                clica(img)
-                img = pyautogui.locateCenterOnScreen('5 selecionado.png', confidence=0.95)
-                clica(img)"""
+                sleep(0.1)
 
     #ultimo continuar
     img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 193900.png', confidence=0.7)

@@ -95,11 +95,11 @@ while procurar == "sim":
             for j in range(6,11):
                 img = pyautogui.locateCenterOnScreen(f'historia 2/{i}.png', confidence=0.9)
                 clica(img)
-                sleep(0.2)
+                sleep(0.1)
 
                 img = pyautogui.locateCenterOnScreen(f'historia 2/{j}.png', confidence=0.9)
                 clica(img)
-                sleep(0.2)
+                sleep(0.1)
 
     #penultimo continuar
     img = pyautogui.locateCenterOnScreen('historia 2/continuar.png', confidence=0.7)
