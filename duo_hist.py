@@ -10,7 +10,7 @@ procurar = "sim"
 while procurar == "sim":
 
     #bom dia
-    img = pyautogui.locateCenterOnScreen('Captura de tela 2023-04-01 191826.png', confidence=0.9)
+    img = pyautogui.locateCenterOnScreen('BomDia.png', confidence=0.9)
     clica(img)
     sleep(0.5)
 
