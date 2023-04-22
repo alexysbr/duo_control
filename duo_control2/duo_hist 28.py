@@ -1,4 +1,10 @@
 #É necessario instalar via terminal as bibliotecas: pip install pyautogui pillow mouseinfo
+
+#para exexutar o mouseInfo no cmd
+"""python
+from mouseinfo import mouseInfo
+mouseInfo()"""
+
 import pyautogui
 from time import sleep
 
@@ -12,9 +18,8 @@ while procurar == "sim":
     #banda de menina
     img = pyautogui.locateCenterOnScreen('duo_control2/banda de menina.png', confidence=0.9)
     clica(img)
-    sleep(0.5)
 
-    """#continuar
+    #continuar
     img = pyautogui.locateCenterOnScreen('duo_control2/continuar.png', confidence=0.7)
     clica(img)
  
@@ -102,4 +107,4 @@ while procurar == "sim":
     img = pyautogui.locateCenterOnScreen('duo_control2/continuar.png', confidence=0.7)
     clica(img)
 
-"""
+
