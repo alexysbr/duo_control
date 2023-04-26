@@ -148,7 +148,7 @@ while procurar == "sim":
         #start
         img = pyautogui.locateCenterOnScreen('duo_control2/par 5.png', confidence=0.8)
         clica(img)
-        img = pyautogui.locateCenterOnScreen('duo_control2/par 5 b.png', confidence=0.8)
+        img = pyautogui.locateCenterOnScreen('duo_control2/par 5 b.png', confidence=0.7)
         clica(img)
 
         #music
@@ -158,13 +158,13 @@ while procurar == "sim":
         clica(img)
 
         #is watching
-        img = pyautogui.locateCenterOnScreen('duo_control2/par 7.png', confidence=0.8)
+        img = pyautogui.locateCenterOnScreen('duo_control2/par 7.png', confidence=0.7)
         clica(img)
         img = pyautogui.locateCenterOnScreen('duo_control2/par 7 b.png', confidence=0.8)
         clica(img)
 
         #practice
-        img = pyautogui.locateCenterOnScreen('duo_control2/par 8.png', confidence=0.8)
+        img = pyautogui.locateCenterOnScreen('duo_control2/par 8.png', confidence=0.7)
         clica(img)
         img = pyautogui.locateCenterOnScreen('duo_control2/par 8 b.png', confidence=0.8)
         clica(img)
@@ -200,7 +200,7 @@ while procurar == "sim":
         clica(img)
 
         #band
-        img = pyautogui.locateCenterOnScreen('duo_control2/par 15.png', confidence=0.8)
+        img = pyautogui.locateCenterOnScreen('duo_control2/par 15.png', confidence=0.7)
         clica(img)
         img = pyautogui.locateCenterOnScreen('duo_control2/par 15 b.png', confidence=0.8)
         clica(img)
