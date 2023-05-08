@@ -9,7 +9,7 @@ import pyautogui
 from time import sleep
 
 def clica(img):
-    sleep(0.1)
+    #sleep(0.1)
     if img!=None:
         pyautogui.click(img)
 
