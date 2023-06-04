@@ -215,7 +215,7 @@ while procurar == "sim":
     clica(img)
 
     #fecha propaganda 3
-    img = pyautogui.locateCenterOnScreen('duo_control2/fecha propaganda 3.png', confidence=0.9)
+    img = pyautogui.locateCenterOnScreen('duo_control2/fecha propaganda 3b.png', confidence=0.9)
     clica(img)
 
     #fecha propaganda 4
