@@ -99,7 +99,7 @@ while procurar == "sim":
     clica(img)
 
     # tapping
-    img = pyautogui.locateCenterOnScreen('duo_control2/13 tapping.png', confidence=0.8)
+    img = pyautogui.locateCenterOnScreen('duo_control2/13 tapping.png', confidence=0.7)
     clica(img)
 
     #continuar
@@ -107,7 +107,7 @@ while procurar == "sim":
     clica(img)
 
     # tapped
-    img = pyautogui.locateCenterOnScreen('duo_control2/14 tapped.png', confidence=0.8)
+    img = pyautogui.locateCenterOnScreen('duo_control2/14 tapped.png', confidence=0.7)
     clica(img)
 
     #continuar
