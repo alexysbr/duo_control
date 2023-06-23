@@ -244,6 +244,10 @@ while procurar == "sim":
     img = pyautogui.locateCenterOnScreen('duo_control2/fecha propaganda 4.png', confidence=0.9)
     clica(img)
 
+    #fecha propaganda 5
+    img = pyautogui.locateCenterOnScreen('duo_control2/fecha propaganda 5.png', confidence=0.9)
+    clica(img)
+
     #fecha propaganda Close
     img = pyautogui.locateCenterOnScreen('duo_control2/Close.png', confidence=0.9)
     clica(img)
