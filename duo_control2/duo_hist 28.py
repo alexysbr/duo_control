@@ -114,7 +114,7 @@ while procurar == "sim":
     img = pyautogui.locateCenterOnScreen('duo_control2/continuar.png', confidence=0.7)
     clica(img)
 
-    """#pares
+    #pares
     img = pyautogui.locateCenterOnScreen('duo_control2/Toque nos pares.png', confidence=0.7)
     while img != None:
         #sound
@@ -226,7 +226,7 @@ while procurar == "sim":
         #continuar
         img = pyautogui.locateCenterOnScreen('duo_control2/continuar.png', confidence=0.7)
         clica(img)
-        img = pyautogui.locateCenterOnScreen('duo_control2/Toque nos pares.png', confidence=0.7)"""
+        img = pyautogui.locateCenterOnScreen('duo_control2/Toque nos pares.png', confidence=0.7)
 
     #fecha propaganda
     img = pyautogui.locateCenterOnScreen('duo_control2/fecha propaganda.png', confidence=0.7)
