@@ -58,7 +58,7 @@ while procurar == "sim":
     clica(img)
 
     #my daughter
-    img = pyautogui.locateCenterOnScreen('duo_control2/6 my daughter.png', confidence=0.7)
+    img = pyautogui.locateCenterOnScreen('duo_control2/6 my daughter.png', confidence=0.8)
     clica(img)
 
     #continuar
